@@ -26,5 +26,57 @@ namespace GuestPasswordManager.Properties
                 return defaultInstance;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
+        public string LDAPSearchBase
+        {
+            get
+            {
+                return ((string)(this["LDAPSearchBase"]));
+            }
+            set
+            {
+                this["LDAPSearchBase"] = value;
+            }
+        }
+
+       
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("8")]
+        [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
+        public decimal PasswordLength
+        {
+            get
+            {
+                return ((decimal)(this["PasswordLength"]));
+            }
+            set
+            {
+                this["PasswordLength"] = value;
+            }
+        }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
+        public bool UpgradeRequired
+        {
+            get
+            {
+                return ((bool)(this["UpgradeRequired"]));
+            }
+            set
+            {
+                this["UpgradeRequired"] = value;
+            }
+        }
+
+        
     }
+
 }

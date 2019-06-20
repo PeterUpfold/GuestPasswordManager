@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GuestPasswordManager")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Guest Password Manager")]
+[assembly: AssemblyDescription("Allows authorised users to reset passwords for guest user accounts in Active Directory and export the temporary password.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GuestPasswordManager")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyProduct("Guest Password Manager")]
+[assembly: AssemblyCopyright("Copyright © 2019 Test Valley School.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
