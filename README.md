@@ -6,6 +6,8 @@ Allows authorised users to reset passwords for guest user accounts in Active Dir
 This application is to be used by sufficiently privileged end users to set the password. Password rotation at the end of
 the day is performed by other software.
 
+This requires the machine on which it is running to be a member of an Active Directory domain.
+
 
 ## Licence
 
